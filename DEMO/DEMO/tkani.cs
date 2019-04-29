@@ -51,7 +51,7 @@ namespace DEMO
                 if (dataGridView1.Rows[i].Cells[0].Value != null)
                 {
 
-                    String basePath = "C:/Users/Alex/Desktop/Подготовка к демоэкзамену/picture/tkani/";
+                    String basePath = "C:/Users/Alex/Desktop/Подготовка к демоэкзамену/DEMO/DemoOne/DEMO/picture/tkani/";
                     string filename = dataGridView1.Rows[i].Cells[0].Value.ToString() + ".jpg";
                     string fulPath = basePath + filename;
                     Image image;
